@@ -1,0 +1,24 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- BP Monitor Base -->
+  <rect x="100" y="120" width="200" height="120" rx="15" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="120" y="140" width="160" height="80" rx="5" fill="#1a1a1a"/>
+  <text x="200" y="170" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="16" font-weight="bold">120/80</text>
+  <text x="200" y="190" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="12">mmHg</text>
+  
+  <!-- Cuff -->
+  <ellipse cx="200" cy="80" rx="80" ry="25" fill="#34495e"/>
+  <rect x="120" y="55" width="160" height="50" fill="#34495e"/>
+  
+  <!-- Tube -->
+  <path d="M120 80 Q80 100 100 140" stroke="#2c3e50" stroke-width="8" fill="none"/>
+  
+  <!-- Button -->
+  <circle cx="150" cy="180" r="8" fill="#e74c3c"/>
+  
+  <!-- Brand Label -->
+  <text x="200" y="260" text-anchor="middle" fill="#7f8c8d" font-family="Arial" font-size="12">Digital BP Monitor</text>
+</svg>
